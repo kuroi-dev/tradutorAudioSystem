@@ -1,0 +1,15 @@
+# Dependencias principales
+openai-whisper
+sounddevice
+soundfile
+numpy
+pillow
+pystray
+tkinter
+
+# Traducción
+deep-translator
+
+# Opcional: para mejores traducciones en el futuro
+# deepl
+# azure-cognitiveservices-speech
