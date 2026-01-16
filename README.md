@@ -10,6 +10,8 @@ Aplicación de escritorio que captura audio del sistema y lo traduce del inglés
 - 📊 **Bandeja del sistema** para uso discreto
 - ⚡ **Procesamiento rápido** por fragmentos de audio
 
+![alt text](image.png)
+
 ## 📋 Requisitos
 
 - Python 3.8+
@@ -85,23 +87,6 @@ TRANSLATION_CONFIG = {
 1. Usa un modelo Whisper más grande
 2. Ajusta `chunk_seconds` (fragmentos más largos = mejor contexto)
 3. Configura mejor el dispositivo de audio
-
-## ❓ Preguntas Frecuentes
-
-**P: ¿Necesito entrenar un modelo de IA?**
-R: No. Usamos Whisper (OpenAI) para transcripción y Google Translate para traducción. Ambos están preentrenados.
-
-**P: ¿Funciona sin internet?**
-R: La transcripción sí (Whisper es local), pero la traducción requiere internet.
-
-**P: ¿Puedo mejorar la traducción?**
-R: Sí, en el futuro se puede integrar DeepL o Azure Translator para mejor calidad.
-
-## 🐛 Solución de Problemas
-
-- **No detecta audio**: Verifica `DEVICE_ID` en config.py
-- **Traducción lenta**: Usa fragmentos de audio más cortos
-- **Error de módulos**: Reinstala requirements.txt
 
 ## 🔮 Futuras Mejoras
 
